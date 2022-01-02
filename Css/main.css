@@ -20,14 +20,14 @@ body {
 }
 .head p:first-child {
   color: hsl(234, 12%, 34%);
-  font-size: 30px; 
+  font-size: 33px; 
   font-weight: 200;
   margin: 0;
 }
 .head p:nth-child(2) {
   color:hsl(234, 12%, 34%);
   font-weight: 600;
-  font-size: 30px;
+  font-size: 33px;
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -72,7 +72,7 @@ body {
 .content .card-holder .card h3 {
   color:hsl(234, 12%, 34%);
   margin: 0 0 15px;
-  font-size: 20px;
+  font-size: 22px;
 }
 .content .card-holder .card p {
   color: hsl(229, 6%, 66%);
@@ -107,7 +107,7 @@ footer {
   box-shadow: -3px -3px 14px 0 hsl(224deg 97% 50% / 15%);
 }
 footer  p {
-  font-size: 18px;
+  font-size: 22px;
 }
 footer  a {
   text-decoration: none;
@@ -117,7 +117,7 @@ footer  a {
 @media (max-width: 767px) {
   .head p:first-child,
   .head p:nth-child(2) {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 @media (max-width: 767px) {
