@@ -12,7 +12,7 @@ body {
 .page {
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 70px;
+  padding-top: 75px;
 }
 /* Start Head */
 .head {
@@ -72,7 +72,7 @@ body {
 .content .card-holder .card h3 {
   color:hsl(234, 12%, 34%);
   margin: 0 0 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .content .card-holder .card p {
   color: hsl(229, 6%, 66%);
@@ -96,7 +96,23 @@ body {
   border-top-color: hsl(212, 86%, 64%);
 }
 /* End Content  */
-
+/* Start Footer  */
+footer {
+  background: #fff;
+  padding: 20px 20px 5px;
+  margin-top: 40px;
+  text-align: center;
+  -webkit-box-shadow: -3px -3px 14px 0 hsl(224deg 97% 50% / 15%);
+  -moz-box-shadow: -3px -3px 14px 0 hsl(224deg 97% 50% / 15%);
+  box-shadow: -3px -3px 14px 0 hsl(224deg 97% 50% / 15%);
+}
+footer  p {
+  font-size: 18px;
+}
+footer  a {
+  text-decoration: none;
+}
+/* End Footer  */
 /* Start media Requires */
 @media (max-width: 767px) {
   .head p:first-child,
